@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#navbar li a#current {
+	font-size: 20px;
+	text-decoration: none;
+	border-bottom-style: ridge;
+	border-left-style: ridge;
+	border-bottom-color: #009;
+	border-left-color: #009;
+	color: #CCCCFF;
+}
+
+
+	#container {
+	width: 600px;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-left: 250px;
+	background-color: #FFF;
+	font-size: 16px;
+	color: #000066;
+	border: 10px double #006;
+	height: 2450px;

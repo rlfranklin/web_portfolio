@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+	#container {
+	width: 600px;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-left: 250px;
+	background-color: #FFF;
+	font-size: 16px;
+	color: #000066;
+	border: 10px double #006;
+	height: 3700px;
+}
+#hell {
+	margin: 5px;
+	padding: 5px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #99F;
+	border-bottom-color: #99F;
+}
+#imperfection {
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #99F;
+	margin: 5px;
+	padding: 10px;
+}
+#overconfident {
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #99F;
+	margin: 5px;
+	padding: 10px;
+}

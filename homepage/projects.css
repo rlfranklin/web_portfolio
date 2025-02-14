@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* Base styles */
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: small;
+  color: #000;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background: #14120D url('images/image_overlay.png') center center / cover no-repeat fixed;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* Content */
+#content {
+  font-family: 'Tangerine', cursive;
+  text-align: left;
+  white-space: normal;
+  background-color: #FFFFF1;
+  border: 10px groove #FFFFCC;
+  margin: 1px;
+  font-size: 14px;
+  color: #0F346F;
+  padding: 20px;
+  overflow-y: scroll;
+  height: calc(100vh - 200px); /* Dynamically adjusts based on viewport */
+}
+
+/* Navigation */
+#navigation {
+  font-size: 14px;
+  color: #FFFFF1;
+  background-color: #005BC3;
+  text-align: center;
+  padding: 3px 15px 2px;
+  border-top: 2px solid #09F;
+  border-bottom: 2px solid #09F;
+}
+
+#navigation a,
+#navigation a:visited {
+  text-decoration: none;
+  color: #FFFFF1;
+  padding: 5px;
+}
+
+#navigation a:hover {
+  color: #FEF2A9;
+  background-color: #8D9EDC;
+  font-size: 13px;
+}
+
+/* Headings */
+h1,
+h2 {
+  font-family: 'Tangerine', cursive;
+  color: #0F346F;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* Footer */
+#footer {
+  position: relative;
+  clear: both;
+  color: #000;
+  margin: 10px;
+  font-family: 'Tangerine', cursive;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  border: thin dotted #FC0;
+}
+
+/* Links */
+a {
+  color: #006699;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #786136;
+  text-decoration: underline;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #ACB3DF;
+}
+
+/* Container */
+#container {
+  text-align: left;
+  height: 500px;
+  width: 650px;
+  float: right;
+  margin: 40px 2px 20px 100px;
+  padding: 1px 100px 1px 1px;
+  position: fixed;
+}
+
+/* Figma header styles */
+.header-title {
+  width: 417px;
+  height: 70px;
+  color: black;
+  font-size: 32px;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 900;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
